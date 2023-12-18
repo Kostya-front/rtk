@@ -1,3 +1,7 @@
+// В папке shared хранится всё максимально общее для проекта, что в теории,
+// может вообще переходить из одного проекта в другой.
+// В частности, тут находится настройка стора и типов
+
 import userSlice from "@/features/users/slices/userSlice";
 import { configureStore } from "@reduxjs/toolkit";
 

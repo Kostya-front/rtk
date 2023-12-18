@@ -1,3 +1,8 @@
+// Согласно архитектуре FSD, здесь у нас просто хранятся компоненты,
+// которые связаны с функциями из стора и по-большей части, js-логика, в идеале,
+// должна быть только у этих компонентов
+
+
 import UiButton from "@/shared/ui/UiButton/UiButton";
 import UiInput from "@/shared/ui/UiInput/UiInput";
 import styles from './style.module.css'
